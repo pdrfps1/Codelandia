@@ -1,4 +1,5 @@
-<img alt="Capa" src="https://imgur.com/a/U2OBlfZ" />
+<img src="/assets/img/print.png">
+
 
 <h1 align="center">
   Blog - Desafio 01
