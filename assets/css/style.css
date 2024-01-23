@@ -1,0 +1,99 @@
+html,body{
+    background-color: #121214;
+    color: #fff;
+}
+
+header{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+img.vector{
+    width: 18px;
+}
+
+.text-brand{
+    color: #E07B67;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+#title{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+input{
+    width: 70%;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #252529;
+    color: #fff;
+    background-color: #202024;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding-left: 50px;
+    background-image: url("Vector.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.cards{
+    border: 1px solid #AFABB6;
+    width: 70% ;
+    padding: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cards:hover{
+    border:1px solid #E07B67;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    color: #E07B67;
+}
+
+.icon {
+    fill: #574ae801;
+    stroke: #E07B67;
+    stroke-width: 7;
+    transition: fill 0.3s;
+    cursor: pointer;
+  }
+  
+  .icon.filled,
+  .icon:hover {
+    fill: #E07B67;
+}
+
+#title-card{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#description-card{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #AFABB6;
+}
